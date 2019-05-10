@@ -1,3 +1,5 @@
+Updating....  Some core programs are not uploaded
+
 # Requirements
 	python 2.7+         https://www.python.org/download/releases/2.7/
 	Biopython           https://biopython.org/wiki/Download
