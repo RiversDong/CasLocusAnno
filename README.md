@@ -11,7 +11,7 @@
 
 # Usage
 	Command: 
-	CasLocusAnno.py -i <inputFile> -o <OutFile>
+	python CasLocusAnno.pyc -i <inputFile> -o <OutFile>
 
 	Options:
 	-h, --help          Check help of CasLocusAnno.py
