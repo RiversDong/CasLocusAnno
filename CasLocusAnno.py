@@ -15,7 +15,6 @@ Version 1.0
 Author: Chuand Dong (chuand@cefg.cn)
 '''
 
-
 import sys, os, Bio, getopt
 import logging
 from Bio import SeqIO
