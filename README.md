@@ -1,5 +1,3 @@
-Updating....  Some core programs are not uploaded
-
 # Requirements
 	python 2.7+         https://www.python.org/download/releases/2.7/
 	Biopython           https://biopython.org/wiki/Download
@@ -13,7 +11,7 @@ Updating....  Some core programs are not uploaded
 
 # Usage
 	Command: 
-	CasLocusAnno.py -i <inputFile> -o <OutFile>
+	python CasLocusAnno.pyc -i <inputFile> -o <OutFile>
 
 	Options:
 	-h, --help          Check help of CasLocusAnno.py
@@ -30,7 +28,7 @@ Updating....  Some core programs are not uploaded
 	├── bin
 	├── CasLocusAnno.py Main program
 	├── configure
-	│   └── profile.ini Profile information
+	│   └── profile.ini Profile information
 	├── profiles        Cas profile
 	├── readme
 	├── temp            A temporary file that stores data during the annotation procedure
@@ -39,6 +37,10 @@ Updating....  Some core programs are not uploaded
 		├── res
 		├── res.anno1
 		└── res.anno2
+
+# noting
+	The standalone version only accepts whole proteome sequence of a chromosome.
+	All the sequences in the inputting file should in the order that they appear in chromosome.
 
 # Output
 	<OutFile>.anno1     Cas protein list in the first-round search
@@ -68,5 +70,3 @@ Updating....  Some core programs are not uploaded
 	Cas proteins that may not constitute a Cas locus or may be false discovery were discarded.
 	This is the reason why you see "Cas locus type: No Cas locus".
 	There is one Cas locus belonging to CAS-I-E in the chromosome 
-
-
