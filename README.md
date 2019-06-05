@@ -1,3 +1,6 @@
+# Temporarily available
+Due to web problem, please visit the server at http://cefg.uestc.cn:81/CasLocusAnno/index.html temporarily
+
 # Requirements
 	python 2.7+         https://www.python.org/download/releases/2.7/
 	Biopython           https://biopython.org/wiki/Download
